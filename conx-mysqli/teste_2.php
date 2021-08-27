@@ -1,6 +1,6 @@
 <?php
 
-$mysql = mysqli_connect('globaljustice2.mysql.dbaas.com.br', 'globaljustice2', 'ePRJJYxhGpsm5g');
+$mysql = mysqli_connect('host-server', 'user-banco', 'password');
 
 /* Test the MySQL connection */
 if (mysqli_connect_errno()) {

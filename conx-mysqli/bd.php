@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("138.186.228.17", "bemslcom_bemsl", "BleJz1b351", "bemslcom_bemsl");
+$link = mysqli_connect("host-server", "nome-banco", "pass", "user-banco");
 
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;

@@ -1,9 +1,9 @@
 <?php
 // definições de host, database, usuário e senha
-$host = "186.202.152.84";
-$db   = "ativohosp";
-$user = "ativohosp";
-$pass = "loca@292929";
+$host = "host-server";
+$db   = "nome-banco";
+$user = "user-banco";
+$pass = "password";
 // conecta ao banco de dados
 $con = mysql_pconnect($host, $user, $pass) or trigger_error(mysql_error(),E_USER_ERROR);
 // seleciona a base de dados em que vamos trabalhar
